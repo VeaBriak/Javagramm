@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="decoration.Decoration">
+  <grid id="27dc6" binding="rootPanel" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="88952" binding="northPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-4473925"/>
+          <minimumSize width="0" height="40"/>
+          <preferredSize width="0" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="afc1e" class="javax.swing.JLabel" binding="hideButton">
+            <constraints/>
+            <properties>
+              <maximumSize width="25" height="25"/>
+              <minimumSize width="25" height="25"/>
+              <opaque value="false"/>
+              <preferredSize width="25" height="25"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="52944" class="javax.swing.JLabel" binding="closeButton">
+            <constraints/>
+            <properties>
+              <maximumSize width="25" height="25"/>
+              <minimumSize width="25" height="25"/>
+              <opaque value="false"/>
+              <preferredSize width="25" height="25"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="b6f2b" binding="contentPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
